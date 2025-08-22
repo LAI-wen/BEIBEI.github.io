@@ -1,2 +1,3 @@
 # BEIBEI.github.io
-學習筆記
+
+bundle exec jekyll serve --baseurl ""
