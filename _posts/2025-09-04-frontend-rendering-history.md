@@ -11,7 +11,9 @@ tags:
   - Next.js
 excerpt: "伺服器端渲染的定義隨著時代不斷演變。本文將帶你回顧從傳統 PHP 渲染，到現代 React Server Components 的前端渲染技術發展歷程。"
 ---
+### **📚 系列導覽：**
 
+* **&laquo; 上一篇：[前端的『煉金術』：JSX 如何將 HTML 變為 JavaScript 的黃金？](/2024/01/01/frontend-alchemy-react/)**
 #
 
 內容重點：
@@ -26,5 +28,10 @@ excerpt: "伺服器端渲染的定義隨著時代不斷演變。本文將帶你�
     ◦ 現代與未來的前端渲染：
         ▪ Progressive Hydration (漸進式水合)： 分區塊進行水合，優先處理重要區塊。
         ▪ Selective Hydration (選擇性水合)： 提前渲染不需要互動的靜態區塊，避免不必要的水合。
+
+
+### **📚 系列下一篇：**
+
+* **[告別『空白頁面恐懼症』：Next.js 如何用多種渲染策略拯救你的 SEO？ &raquo;](/2024/01/03/nextjs-rendering-strategies/)**
         ▪ Islands Architecture (島嶼架構)： 將網頁視為不同小島組成，靜態頁面中只有需要互動的部分是獨立的小島。
         ▪ React Server Components： React 往此方向發展，區分伺服器與客戶端元件，將不需要狀態的元件直接在伺服器渲染
