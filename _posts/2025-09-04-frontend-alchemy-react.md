@@ -16,3 +16,6 @@ excerpt: "深入探討 React 的核心：從 JSX 如何將 HTML 轉化為可互�
 # 前言 
 
 我竟然要寫系列文..
+
+
+* **[從 React 到 Next.js：為何需要一個框架？ &raquo;](/2024/01/02/nextjs-why-framework/)**
