@@ -11,18 +11,4 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
-# 頂層選單
-- title: "分類"
-  url: /categories/
-- title: "前端二三事"
-  children:
-    - title: "系列導覽"
-      url: /posts/frontend-series-guide/
-    - title: "文章一：React 核心概念"
-      url: /2024/01/01/frontend-alchemy-react/
-    - title: "文章二：從 React 到 Next.js"
-      url: /2024/01/02/nextjs-why-framework/
-    - title: "文章三：渲染魔法"
-      url: /2024/01/03/nextjs-rendering-strategies/
-    - title: "文章四：前端簡史"
-      url: /2024/01/04/frontend-rendering-history/
+
