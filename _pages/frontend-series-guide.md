@@ -1,15 +1,18 @@
 ---
 title: "前端工程實戰系列：從 React 到 Next.js 的進化之路"
-layout: single
-permalink: /frontend-series-guide/
-toc: true
-toc_label: "系列目錄"
-toc_icon: "cog"
+layout: collection
+permalink: /posts/frontend/
+collection: posts
+entries_layout: grid
+classes: wide
+author_profile: true
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/黃優格/狗溝貼貼.svg
 excerpt: "深入探討現代前端開發的核心概念與最佳實踐"
+sidebar:
+  nav: "frontend"
 ---
 
 ## 系列介紹

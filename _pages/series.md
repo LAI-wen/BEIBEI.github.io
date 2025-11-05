@@ -12,7 +12,7 @@ feature_row:
     alt: "前端工程實戰系列"
     title: "前端工程實戰：React 到 Next.js 的進化之路"
     excerpt: "從基礎到進階的前端開發之旅：探索 React 核心概念、Next.js 框架優勢、各種渲染策略的應用，以及現代前端開發的最佳實踐。適合想要提升前端技術的開發者。"
-    url: "/frontend-series-guide/"
+    url: "/posts/frontend/"
     btn_label: "開始閱讀"
     btn_class: "btn--primary"
   - image_path: /assets/images/黃優格/小羊貼紙.svg
