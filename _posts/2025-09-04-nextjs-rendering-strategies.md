@@ -12,7 +12,13 @@ tags:
   - CSR
   - Hydration
 excerpt: "從客戶端渲染到伺服器端渲染，再到靜態網站生成，Next.js 提供多種策略以應對不同的效能與 SEO 挑戰。本文將深入剖析這些渲染魔法的運作原理。"
+series: frontend
+series_index: 3
 ---
+
+**系列導覽：**
+* [« 前端渲染的演進：從 Static HTML 到 SSR 的時代巨輪](/frontend-rendering-history)
+* 本篇為系列最後一篇文章
 
 
 ## Next.js 渲染策略詳解：CSR, SSR, SSG 與 ISR
@@ -101,3 +107,11 @@ Next.js 的優勢在於，我們可以為應用程式中的**每一個頁面**�
 透過靈活組合這些渲染模式，我們就能根據實際需求，打造出兼具效能、SEO 與良好使用者體驗的現代網頁應用。
 
 ![image](https://hackmd.io/_uploads/r1dbDJp6el.png)
+
+---
+
+### 系列文章導覽
+
+* **前一篇**：[前端渲染的演進：從 Static HTML 到 SSR 的時代巨輪](/frontend-rendering-history)
+* **目前位置**：[{{ page.title }}]({{ page.url }})
+* **回到系列開始**：[React 開發煉金術：進階技巧與優化策略](/frontend-alchemy-react)

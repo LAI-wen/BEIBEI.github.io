@@ -11,12 +11,14 @@ tags:
   - State
   - Props
 excerpt: "深入探討 React 的核心：從 JSX 如何將 HTML 轉化為可互動的 JavaScript 元素，到元件如何利用狀態 (State) 來管理自身數據。"
+series: frontend
+series_index: 1
 ---
 
 **系列導覽：**
 
 * « 本篇為系列首篇文章
-* 下一篇：[從 React 到 Next.js：為何需要一個框架？ »](https://your-blog.com/nextjs-why-framework)
+* 下一篇：[不只 React，更勝 React：為什麼你的下一個專案應該考慮 Next.js？ »](/nextjs-why-framework)
 
 ---
 
@@ -260,9 +262,6 @@ function Counter() {
 
 **📚 系列下一篇：**
 
-  * [從 React 到 Next.js：為何需要一個框架？ »](https://www.google.com/url?sa=E&source=gmail&q=https://your-blog.com/nextjs-why-framework)
+  * [不只 React，更勝 React：為什麼你的下一個專案應該考慮 Next.js？ »](/nextjs-why-framework)
 
 <!-- end list -->
-
-```
-```

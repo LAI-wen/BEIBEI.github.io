@@ -4,13 +4,14 @@ layout: splash
 permalink: /series/
 header:
   overlay_color: "#000"
+  overlay_filter: "0.5"
   overlay_image: /assets/images/黃優格/去背_咪.PNG
   caption: "攝影：[Unsplash](https://unsplash.com)"
 feature_row:
   - image_path: /assets/images/黃優格/狗溝貼貼.svg
-    alt: "前端開發系列圖片"
-    title: "前端開發煉金術：從 React 核心到 Next.js 渲染策略"
-    excerpt: "這個系列將帶你從 React 的核心概念開始，逐步深入到 Next.js 的多種渲染策略。了解為何從函式庫轉向框架，以及如何打造高效能的現代網站。"
+    alt: "前端工程實戰系列"
+    title: "前端工程實戰：React 到 Next.js 的進化之路"
+    excerpt: "從基礎到進階的前端開發之旅：探索 React 核心概念、Next.js 框架優勢、各種渲染策略的應用，以及現代前端開發的最佳實踐。適合想要提升前端技術的開發者。"
     url: "/frontend-series-guide/"
     btn_label: "開始閱讀"
     btn_class: "btn--primary"
@@ -23,6 +24,6 @@ feature_row:
     btn_class: "btn--success"
 ---
 
-<div id="main">
+<div id="main" class="series-container">
   {% include feature_row %}
 </div>

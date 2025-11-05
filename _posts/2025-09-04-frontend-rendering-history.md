@@ -10,10 +10,13 @@ tags:
   - React
   - Next.js
 excerpt: "伺服器端渲染的定義隨著時代不斷演變。本文將帶你回顧從傳統 PHP 渲染，到現代 React Server Components 的前端渲染技術發展歷程。"
+series: frontend
+series_index: 2
 ---
-### **📚 系列導覽：**
 
-* **&laquo; 上一篇：[前端的『煉金術』：JSX 如何將 HTML 變為 JavaScript 的黃金？](/2024/01/01/frontend-alchemy-react/)**
+**系列導覽：**
+* [« 不只 React，更勝 React：為什麼你的下一個專案應該考慮 Next.js？](/nextjs-why-framework)
+* [下一篇：Next.js 的渲染策略：SSR、SSG、ISR 與 CSR 的實戰比較 »](/nextjs-rendering-strategies)
 
 
 當一位開發者跟你提到「Server-Side Rendering」或「SSR」時，他指的到底是什麼？是傳統的 PHP 網站，還是一個用 React 打造的現代 SPA？「SSR」這個詞已經變得有點混亂，因為在不同語境下，它可能代表著完全不同的技術架構。
@@ -112,6 +115,10 @@ excerpt: "伺服器端渲染的定義隨著時代不斷演變。本文將帶你�
 
 
 
-### **📚 系列下一篇：**
+---
 
-* [告別『空白頁面恐懼症』：Next.js 如何用多種渲染策略拯救你的 SEO？ &raquo;](/2024/01/03/nextjs-rendering-strategies/)
+### 系列文章導覽
+
+* **前一篇**：[不只 React，更勝 React：為什麼你的下一個專案應該考慮 Next.js？](/nextjs-why-framework)
+* **目前位置**：[{{ page.title }}]({{ page.url }})
+* **下一篇**：[Next.js 的渲染策略：SSR、SSG、ISR 與 CSR 的實戰比較](/nextjs-rendering-strategies)

@@ -10,7 +10,13 @@ tags:
   - SPA
   - Framework
 excerpt: "React 專注於 UI 構建，但當面對 SEO、效能和路由等問題時，Next.js 提供了更全面的解決方案。這篇文章將帶你了解從函式庫到框架的必要性。"
+series: frontend
+series_index: 4
 ---
+
+**系列導覽：**
+* [« React 開發煉金術：進階技巧與優化策略](/frontend-alchemy-react)
+* [下一篇：前端渲染的演進：從 Static HTML 到 SSR 的時代巨輪 »](/frontend-rendering-history)
 
 
 如果你有用 React 開發過專案，你大概也遇過這些問題：花了很多時間把酷炫的介面做出來了，但網站丟到 Google 就是搜尋不到；或是使用者抱怨第一次打開網頁怎麼那麼慢。
@@ -118,6 +124,14 @@ npx create-next-app@latest
 React 是一顆頂級的引擎 (UI 函式庫)，但光有引擎沒辦法上路。Next.js 就是那台幫你把引擎、底盤、輪胎、方向盤都完美組裝好的跑車 (框架)。
 
 它解決了純 React 在 SEO 和效能上的先天不足，同時又提供了極佳的開發體驗。別再自己拼裝車子了，直接開上這台為你打造好的 React 跑車，開始高效地打造你的下一個專案吧！
+
+---
+
+### 系列文章導覽
+
+* **前一篇**：[React 開發煉金術：進階技巧與優化策略](/frontend-alchemy-react)
+* **目前位置**：[{{ page.title }}]({{ page.url }})
+* **下一篇**：[前端渲染的演進：從 Static HTML 到 SSR 的時代巨輪](/frontend-rendering-history)
 
 
 
