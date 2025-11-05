@@ -113,16 +113,18 @@ React DOM 預設會對 JSX 中嵌入的所有內容進行**跳脫 (Escape)** 處
 <!-- end list -->
 
 ```jsx
+{% raw %}
 // 使用 CSS class
 <div className="card">...</div>
 
 // 使用 Inline style
 <h1 style={{ fontSize: '16px', color: 'blue' }}>Hello</h1>
+{% endraw %}
 ```
 
-> **為什麼是兩層大括號 `{{...}}`？**
+> **為什麼是兩層大括號？**
 >
-> 外層的 `{}` 是告訴 JSX「這裡要插入 JavaScript 囉！」，而內層的 `{}` 則是 JavaScript 中建立「物件」的標準語法。
+> 外層的 {% raw %}`{}`{% endraw %} 是告訴 JSX「這裡要插入 JavaScript 囉！」，而內層的 {% raw %}`{}`{% endraw %} 則是 JavaScript 中建立「物件」的標準語法。
 
 #### **條件渲染 (Conditional Rendering)**
 
@@ -135,11 +137,13 @@ React 沒有特殊的條件語法，而是直接使用標準的 JavaScript 來�
 <!-- end list -->
 
 ```jsx
+{% raw %}
 // 三元運算子
 <div>{isLoggedIn ? <AdminPanel /> : <LoginForm />}</div>
 
 // && 運算子
 <div>{unreadMessages.length > 0 && <h2>您有 {unreadMessages.length} 則未讀訊息。</h2>}</div>
+{% endraw %}
 ```
 
 #### **渲染列表 (Rendering Lists)**
@@ -147,6 +151,7 @@ React 沒有特殊的條件語法，而是直接使用標準的 JavaScript 來�
 要根據一個陣列資料來渲染列表，我們通常使用 JavaScript 的 `array.map()` 方法。
 
 ```jsx
+{% raw %}
 const products = [
   { title: '高麗菜', id: 1 },
   { title: '大蒜', id: 2 },
@@ -158,8 +163,7 @@ const listItems = products.map(product =>
     {product.title}
   </li>
 );
-
-// return <ul>{listItems}</ul>;
+{% endraw %}
 ```
 
 > **`key` 是什麼？為什麼重要？**
@@ -200,17 +204,9 @@ function MyButton() {
 <!-- end list -->
 
 ```jsx
+{% raw %}
 const [count, setCount] = useState(0);
-```
 
-`useState(0)` 會回傳一個陣列，包含兩個值：
-
-  * `count`：目前的 state 值（初始值為 0）。
-  * `setCount`：一個用來更新 state 的函式。
-
-當你想改變 state 時，就呼叫 `setCount(newValue)`。這個動作會告訴 React：「嘿，資料變了，請重新渲染這個元件！」
-
-```jsx
 function Counter() {
   const [count, setCount] = useState(0);
 
@@ -224,6 +220,7 @@ function Counter() {
     </button>
   );
 }
+{% endraw %}
 ```
 
 -----
